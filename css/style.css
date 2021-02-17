@@ -25,37 +25,51 @@ tr{
 /*END STARTER CODE*/
 
 body{
+  background-color: #DDDDDD;
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-
+  font-family: "Andika", sans-serif;
+  background-image: url("../images/pigeon-background.JPEG");
   /*Req 1*/
 }
 
 h1{
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 4em;
 
   /*Req 2*/
 }
 
 p{
   /*Req 3*/
+  padding-top: 15px;
 }
 
 a{
   /*Req 4*/
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
 }
 
+/*FIX MEEEEEE*/
 /*Req 5*/
 /*Add selector and rule here*/
+*:focus{
+  border: 3px dashed #417243;
+}
 
 
 /*Req 6a*/
 td{
-  
+  text-align: center;
+  border-top: 2px black;
+  padding: 10px;
 }
 
 /*Req 6b*/
