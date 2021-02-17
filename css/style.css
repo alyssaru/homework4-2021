@@ -35,14 +35,13 @@ body{
   background-image: url("../images/pigeon-background.JPEG");
   /*Req 1*/
 }
-
+/*line height, color, no repeating image*/
 h1{
-  color: #B21F50;
+  color: #c12258;
   font-size: 2em;
   text-align: center;
   line-height: 4em;
 
-  /*Req 2*/
 }
 
 p{
@@ -129,7 +128,7 @@ tbody tr:last-child th:first-child{
   border-radius: 0px 0px 0px 10px;
 }
 
-tbody tr:last-child th:last-child{
+tbody tr:last-child td:last-child{
   border-radius: 0px 0px 10px 0px;
 }
 
@@ -143,5 +142,6 @@ footer{
   min-height: 75px;
   position:fixed;
   bottom:0;
+  left:0;
 }
 
