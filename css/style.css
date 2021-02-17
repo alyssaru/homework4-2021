@@ -78,23 +78,15 @@ td{
   min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
-  border-bottom: 2px solid black;
 }
 /*Req 6c*/
 .rowhead{
   border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 tbody td{
-  border-bottom: 2px solid black;
-}
-tbody tr:last-child td {
-  border: 0px;
-}
-
-tbody tr:last-child th{
-  border-bottom: 0px;
+  border-top: 2px solid black;
 }
 
 tr:nth-child(odd){
@@ -105,7 +97,7 @@ tr:nth-child(even){
   background: #D1D1D1;
 }
 
-tr:hover{
+tbody tr:hover{
   background: rgba(126, 8, 32, 0.25);
 }
 
