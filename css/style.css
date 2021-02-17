@@ -37,7 +37,7 @@ body{
 }
 
 h1{
-  color: #c12258;
+  color: #B21F50;
   font-size: 2em;
   text-align: center;
   line-height: 4em;
@@ -101,11 +101,26 @@ tr:hover{
 /*Req 7*/
 table{
     border: 2px solid #000000;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-radius: 10px 0px 0px 0px;
+}
+thead tr:first-child th:last-child{
+  border-radius: 0px 10px 0px 0px;
+}
+
+tbody tr:last-child th:first-child{
+  border-radius: 0px 0px 0px 10px;
+}
+
+tbody tr:last-child th:last-child{
+  border-radius: 0px 0px 10px 0px;
+}
+
 
 /*Add selectors and rules here*/
 
@@ -116,5 +131,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position:fixed;
+  bottom:0;
 }
 
